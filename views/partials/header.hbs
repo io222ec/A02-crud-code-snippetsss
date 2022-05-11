@@ -1,0 +1,14 @@
+<header>
+    <ul class="navBar">
+        <li class="nav-li"><a href="/snippets/">Home</a></li>
+        {{#if signedUser.length }}
+        <li class="nav-li"><a href="/logout/">Logout</a></li>
+        <li class="nav-li logged-in">Logged In As: {{signedUser}}</li>
+    </ul>
+    {{else}}
+    <li class="nav-li"><a href="/login/">Login</a></li>
+    <li class="nav-li"><a href="/register/">Register</a></li>
+
+    </ul>
+    {{/if}}
+</header>

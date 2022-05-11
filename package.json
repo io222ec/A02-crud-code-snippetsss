@@ -1,0 +1,34 @@
+{
+  "name": "crud-code-snippets",
+  "version": "1.0.0",
+  "description": "Web application for persistent handling of programming code snippets",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "standard | snazzy || exit 0",
+    "devstart": "nodemon --inspect ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.lnu.se:1dv523/student/io222ec/a02-crud-code-snippets.git"
+  },
+  "author": "Oyejobi Ibrahim Olamide",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-hbs": "^2.3.4",
+    "express-session": "^1.17.1",
+    "http-errors": "^1.8.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.8",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "snazzy": "^9.0.0",
+    "standard": "^16.0.3"
+  }
+}
