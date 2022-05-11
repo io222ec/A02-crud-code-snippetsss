@@ -1,6 +1,6 @@
 Presentation video Link: https://drive.google.com/file/d/1psIdYZ1fNg9_5FsGLNjY_tW03BeXAysN/view?usp=sharing 
 
-Install npm
+Install npm.
 Dependencies setup.
 
 -npm start-
